@@ -1,0 +1,34 @@
+.start {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2em;
+}
+
+.start h1 {
+    font-size: 3.5em;
+    text-align: left;
+    line-height: 100%;
+    overflow: hidden;
+}
+.start h1 span {
+    background-color: white;
+    padding: 10px;
+    color: var(--dark-indigo);
+}
+
+.start .title {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+}
+.start .title h1 {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+
+.start .secondH1 {
+    font-size: 6em;
+}
